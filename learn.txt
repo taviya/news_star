@@ -1,0 +1,11 @@
+27.
+	-> componentDidmount - render thy jay pchi call thay.
+	-> 
+
+
+31-
+	-> ak component no multiple time router trike kevi rite use krvo
+	-> <Route exact  path="/" element={<News key="sports" pageSize={5} category='sports' country='in' />}></Route>
+	-> <Route exact  path="/business" element={<News key="business" pageSize={5} category='business' country='in' />}></Route>
+
+32- let {title, description, imageUrl, newsUrl, author, date} = this.props; data destructuring kryu keva.
