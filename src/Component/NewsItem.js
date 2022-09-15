@@ -6,7 +6,7 @@ export default class NewsItem extends Component {
     return (
       <div className='my-3'>
         <div className="card">
-        <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{zIndex: "1", left: "90%"}}>
+        <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{zIndex: "1", left: "90%"}}>
           {source}
         </span>
           <img src={imageUrl ? imageUrl : 'https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_21/2442281/og-nbcnews1200x630.png'} className="card-img-top" alt="..." />

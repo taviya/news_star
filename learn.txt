@@ -5,7 +5,32 @@
 
 31-
 	-> ak component no multiple time router trike kevi rite use krvo
-	-> <Route exact  path="/" element={<News key="sports" pageSize={5} category='sports' country='in' />}></Route>
-	-> <Route exact  path="/business" element={<News key="business" pageSize={5} category='business' country='in' />}></Route>
+	-> <Route exact  path="/" element={<News setProgress={this.setProgress} key="sports" pageSize={5} category='sports' country='in' />}></Route>
+	-> <Route exact  path="/business" element={<News setProgress={this.setProgress} key="business" pageSize={5} category='business' country='in' />}></Route>
 
 32- let {title, description, imageUrl, newsUrl, author, date} = this.props; data destructuring kryu keva.
+
+34. Component life cycle
+	-> mounting - birth component.
+	-> update - Growth of component
+	-> unMount - component death thy jay
+	
+	render() - html show krva.
+	ComponentDidMount() - render() pchii call thay.
+	ComponentDidUpdate() - props k state change thay tyare call thay.. mns k component ma ky pn update thay atle call thay.
+	
+
+36.
+	-> Apde direct function j as a props pass kri skia. so bija component mathi tene changes kria to pre ma change thy ske.
+
+37.
+	-> REACT_APP thi koi var start kria to akhi app ma teno access mle.
+	-> REACT_APP_API_KEY=170f7f89635a48ac97bf39cfe30473a7
+	-> access - process.env.REACT_APP_API_KEY;
+
+38.
+	-> Class base component ma use thay aa vstu function base component ma use kri skia.
+	-> useState()
+	-> useEffect() -> 
+	-> useContext() -> props nu tree bni jay tyare globly data provide kre.
+	-> useRef() -> 
